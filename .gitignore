@@ -1,7 +1,3 @@
-# Dependencies
-node_modules/
-.pnp/
-.pnp.js
 
 # Log files
 npm-debug.log*
@@ -10,10 +6,6 @@ yarn-error.log*
 
 # Environment variables
 .env
-
-# Build output
-build/
-dist/
 
 # Cache
 .cache/
