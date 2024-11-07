@@ -1,0 +1,62 @@
+/* Auth.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .auth-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .auth-box h2 {
+    margin-bottom: 20px;
+  }
+  
+  .auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 0.5rem;
+  }
+  
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Press Start 2P', sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-button:hover {
+    background-color: #e6b800;
+  }
+  
+  .toggle-link {
+    margin-top: 15px;
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.5rem;
+  }
+  
+  .toggle-link:hover {
+    color: #0056b3;
+  }
+  

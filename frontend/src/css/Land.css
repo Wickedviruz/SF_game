@@ -1,0 +1,69 @@
+/* Land.css */
+
+.land-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f8ff;
+    min-height: 100vh;
+    font-family: 'Press Start 2P', sans-serif; /* Pixelart-font för bättre stil */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #34495e;
+  }
+  
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 100px); /* 5 kolumner */
+    grid-template-rows: repeat(5, 100px); /* 5 rader */
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .grid-cell {
+    width: 100px;
+    height: 100px;
+    background-color: #d3d3d3;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .grid-cell:hover {
+    background-color: #b0b0b0;
+  }
+  
+  .buildings-list {
+    margin-top: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
